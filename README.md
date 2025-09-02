@@ -43,3 +43,48 @@ AiAgent/
  ```bash
   git clone https://github.com/ton-projet/AiAgent.git
   cd AiAgent
+```
+2. Créer et activer un environnement virtuel :
+ ```bash
+  python -m venv .venv
+  source .venv/bin/activate   # sous Linux/Mac
+  .venv\Scripts\activate      # sous Windows
+```
+
+3. Installer les dépendances :
+ ```bash
+pip install -r requirements.txt
+```
+
+##  Configuration
+
+Créez un fichier .env à la racine du projet avec vos clés API :
+ ```bash
+OPENAI_API_KEY="votre_cle_openai"
+ANTHROPIC_API_KEY="votre_cle_anthropic"
+```
+
+## Utilisation
+
+Lancez le programme :
+ ```bash
+python main.py
+```
+L’agent vous demandera une requête :
+ ```bash
+What can i help you research?
+
+```
+Exemple de requêtes :
+- Fais-moi un résumé de l’histoire de Python et sauve dans un fichier
+
+## Choix du modèle (OpenAI ou Anthropic)
+Dans main.py, décommentez la ligne correspondant au LLM souhaité :
+ ```bash
+# Utiliser OpenAI
+# llm = ChatOpenAI(model="gpt-4o-mini")
+
+# Utiliser Anthropic
+llm = ChatAnthropic(model="claude-3-5-sonnet-20240620")
+
+```
