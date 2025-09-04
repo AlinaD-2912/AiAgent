@@ -6,4 +6,8 @@ langchain-anthropic
 python-dotenv
 pydantic
 duckduckgo-search
-
+black
+pytest
+rich
+GitPython
+pygments
