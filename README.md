@@ -54,7 +54,19 @@ AiAgent/
 3. Installer les dépendances :
  ```bash
 pip install -r requirements.txt
+pip install -U ddgs
 ```
+
+## System Requirements
+- Python 3.10+
+- Node.js (for JavaScript/TypeScript code)
+- PHP (for PHP code)
+- OpenJDK (for Java code)
+
+Install system dependencies separately using your OS package manager:
+- Ubuntu/Debian: `sudo apt install nodejs php openjdk-17-jdk`
+- macOS (Homebrew): `brew install node php openjdk`
+
 
 ##  Configuration
 
