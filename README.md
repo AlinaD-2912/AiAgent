@@ -7,8 +7,8 @@ L’agent peut effectuer des recherches sur Internet ou générer du code dans p
 ##  Fonctionnalités
 1. Choix du LLM :
 
-  - OpenAI GPT (ChatOpenAI)
-  - Anthropic Claude (ChatAnthropic)
+    - OpenAI GPT (ChatOpenAI)
+    - Anthropic Claude (ChatAnthropic)
     (il suffit de commenter/décommenter une ligne dans le code)
 
 2. Modes de fonctionnement
