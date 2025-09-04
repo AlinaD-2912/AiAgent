@@ -13,37 +13,37 @@ L’agent peut effectuer des recherches sur Internet ou générer du code dans p
 
 2. Modes de fonctionnement
 
-  - Mode recherche
+      - Mode recherche
 
-    - Effectue des recherches via Wikipédia ou un moteur de recherche (DuckDuckGo).
+        - Effectue des recherches via Wikipédia ou un moteur de recherche (DuckDuckGo).
 
-    - Résume les informations et peut sauvegarder les résultats dans un fichier .txt.
+        - Résume les informations et peut sauvegarder les résultats dans un fichier .txt.
 
-  - Mode codage
+      - Mode codage
 
-    - Génère du code dans plusieurs langages : Python, JavaScript, TypeScript, PHP, Java, HTML/CSS, Bash, etc.
+        - Génère du code dans plusieurs langages : Python, JavaScript, TypeScript, PHP, Java, HTML/CSS, Bash, etc.
 
-  - Fournit toujours :
+      - Fournit toujours :
 
-    - filename (nom du fichier avec extension correcte)
+        - filename (nom du fichier avec extension correcte)
 
-    - language (langage de programmation)
+        - language (langage de programmation)
 
-    - code (le code source complet)
+        - code (le code source complet)
 
-    - instructions (README expliquant les dépendances, l’usage, etc.)
+        - instructions (README expliquant les dépendances, l’usage, etc.)
 
-  - Sauvegarde automatiquement le code et un fichier README associé.
-  - 
+      - Sauvegarde automatiquement le code et un fichier README associé.
+
 3. Outils intégrés
 
-  - Recherche générale (DuckDuckGo)
+      - Recherche générale (DuckDuckGo)
 
-  - Recherche Wikipédia
+      - Recherche Wikipédia
 
-  - Sauvegarde des résultats dans un fichier .txt
+      - Sauvegarde des résultats dans un fichier .txt
 
-  - Sauvegarde de code et instructions dans des fichiers séparés (.py, .js, .php, .java, _README.txt, etc.)
+      - Sauvegarde de code et instructions dans des fichiers séparés (.py, .js, .php, .java, _README.txt, etc.)
 
 
 ##  Structure du projet
