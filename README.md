@@ -57,13 +57,13 @@ pip install -r requirements.txt
 pip install -U ddgs
 ```
 
-## System Requirements
+## Configuration requise
 - Python 3.10+
-- Node.js (for JavaScript/TypeScript code)
-- PHP (for PHP code)
-- OpenJDK (for Java code)
+- Node.js (pour JavaScript/TypeScript code)
+- PHP (pour PHP code)
+- OpenJDK (pour Java code)
 
-Install system dependencies separately using your OS package manager:
+Installez les dépendances système séparément à l’aide du gestionnaire de packages de votre système d’exploitation :
 - Ubuntu/Debian: `sudo apt install nodejs php openjdk-17-jdk`
 - macOS (Homebrew): `brew install node php openjdk`
 
