@@ -1,10 +1,16 @@
 from bottle import Bottle
 from bottle import Bottle, template
 from bottle import request
+from bottle import Bottle, static_file, template
 
 from bottle import redirect
 
 app = Bottle()
+
+@app.route('/static/<filepath:path>')
+def server_static(filepath):
+    return static_file(filepath, root='./static')
+
 
 @app.route('/')
 def index():
